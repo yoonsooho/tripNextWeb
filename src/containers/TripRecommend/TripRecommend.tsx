@@ -27,8 +27,8 @@ const TripRecommend = () => {
       src: Hawai,
     },
     {
-      name: '제주',
-      koreaName: 'Jeju',
+      name: 'Jeju',
+      koreaName: '제주',
       src: Jeju,
     },
     {
