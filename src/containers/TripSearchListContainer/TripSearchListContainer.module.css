@@ -1,0 +1,11 @@
+.wrraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.title {
+  padding-top: 150px;
+  padding-bottom: 50px;
+}

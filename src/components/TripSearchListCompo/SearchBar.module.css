@@ -1,0 +1,38 @@
+.wrraper {
+  position: relative;
+  width: 100%;
+  min-width: 300px;
+  height: 100%;
+  min-height: 60px;
+}
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 300px;
+  height: 100%;
+  min-height: 60px;
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+.input::placeholder {
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.input:focus {
+  border-color: transparent;
+  outline-color: transparent;
+}
+.searchIcon {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  opacity: 0.5;
+}

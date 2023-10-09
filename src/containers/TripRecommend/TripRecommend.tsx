@@ -1,16 +1,13 @@
 'use client';
-import React, { useRef } from 'react';
 // Import Swiper React components
+import { A11y, Autoplay, Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import styles from './TripRecommend.module.css';
 // Import Swiper styles
-import 'swiper/css';
+import TripRecommendBox from '@/components/TripRecommendBox/TripRecommendBox';
 import Hawai from '../../../public/img/Hawai.jpg';
 import Jeju from '../../../public/img/Jeju.jpg';
 import Osaka from '../../../public/img/Osaka.jpg';
-import Image from 'next/image';
-import TripRecommendBox from '@/components/TripRecommendBox/TripRecommendBox';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -18,8 +15,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 const TripRecommend = () => {
-  //   SwiperCore.use([Navigation]);
-  const swiperRef = useRef();
   const recommendInfo = [
     {
       name: 'Hawai',
