@@ -1,0 +1,13 @@
+.swiperSlideWrapper {
+  width: 100%;
+}
+.title {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+.swiperSlide {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
