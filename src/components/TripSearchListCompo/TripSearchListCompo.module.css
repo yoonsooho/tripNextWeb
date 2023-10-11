@@ -1,0 +1,37 @@
+.wrraper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btnBox {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.btnBox > button {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid transparent;
+  color: var(--representative-font-color);
+  padding: 15px 20px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  font-size: 1.2rem;
+}
+.btnBox > button.focus {
+  border-bottom: 2px solid var(--representative-color);
+  color: var(--representative-color);
+}
+.ListBox {
+  margin-top: 50px;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}

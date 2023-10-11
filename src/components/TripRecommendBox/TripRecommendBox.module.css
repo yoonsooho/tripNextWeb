@@ -1,17 +1,23 @@
 .wraaper {
   position: relative;
-  /* width: 384px;
-  height: 384px; */
   width: 100%;
   height: 500px;
-  overflow: hidden;
-  border: 1px solid transparent;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.3);
   transition: all 0.3s;
 }
 .wraaper:hover {
   background-color: rgba(0, 0, 0, 0);
+}
+.newBeige {
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
 }
 .titleWraaper {
   position: absolute;

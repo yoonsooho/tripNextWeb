@@ -20,21 +20,25 @@ const TripRecommend = () => {
       name: 'Hawai',
       koreaName: '하와이',
       src: Hawai,
+      isNew: true,
     },
     {
       name: 'Jeju',
       koreaName: '제주',
       src: Jeju,
+      isNew: true,
     },
     {
       name: 'Osaka',
       koreaName: '오사카',
       src: Osaka,
+      isNew: false,
     },
     {
       name: 'Osaka',
       koreaName: '오사카',
       src: Osaka,
+      isNew: false,
     },
   ];
   return (
@@ -52,7 +56,12 @@ const TripRecommend = () => {
         {recommendInfo.map((el, i) => {
           return (
             <SwiperSlide key={i} className={styles.swiperSlide}>
-              <TripRecommendBox name={el.name} koreaName={el.koreaName} src={el.src} />
+              <TripRecommendBox
+                name={el.name}
+                koreaName={el.koreaName}
+                src={el.src}
+                isNew={el.isNew}
+              />
             </SwiperSlide>
           );
         })}

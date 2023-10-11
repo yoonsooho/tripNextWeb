@@ -16,7 +16,7 @@ const SearchBar = (props: propsI) => {
         onChange={(e) => {
           props.inputValueChange(e.target.value);
         }}
-        placeholder="국가나 도시명으로 검색해보세요"
+        placeholder="국가나 도시명으로 검색해보세요."
       />
       <Image src={searchIcon} alt="돋보기" className={styles.searchIcon} />
     </div>
